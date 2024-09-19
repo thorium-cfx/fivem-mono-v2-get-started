@@ -48,7 +48,7 @@ This guide expects that the reader already knows how to work with Visual Studio 
 	```
 5. Now you should have a solution with 2 projects, targeting .NET Framework 4.5.2 (or higher), and have all references correctly set up.
 6. Edit your **fxmanifest.lua** file and add the following to it:  
-	`mono_rt2 'Prerelease expiring 2023-06-30. See https://aka.cfx.re/mono-rt2-preview for info.'`  
+	`mono_rt2 'Prerelease expiring 2024-12-31. See https://aka.cfx.re/mono-rt2-preview for info.'`  
 	\* *rt2 stands for runtime 2, as to not confuse it with a potential v2 of mono itself.*
 	\* *this flag is considered temporary and will be removed at some point.*
 7. Add your copy of **CitizenFX.FiveM.Native.dll** or **CitizenFX.RedM.Native.dll** (depending on your game) to the resource and also add it in your **fxmanifest.lua** as well, just like any other dll dependency
